@@ -1,0 +1,427 @@
+:root {
+  --primary-color: #fa7436;
+  --body-color: #fefcfb;
+}
+
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* color: #fefcfb; */
+  font-family: monospace;
+  background-color: var(--body-color);
+}
+
+body button {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 48px;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit; /* inherit the color from anyone of its parents color */
+}
+
+.tra-link > a {
+  display: flex;
+}
+
+.tra-link img {
+  width: 20px;
+  object-fit: contain;
+}
+
+.tra-link h1 {
+  width: 90px;
+  margin: 0px;
+  margin-left: 16px;
+  text-align: center;
+}
+
+.nav-links {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-weight: bold;
+  color: white;
+  border-radius: 7px;
+}
+.login {
+  color: var(--primary-color);
+  border: 0px;
+  background-color: white;
+}
+.primary-btn {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+/* .tranparent-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+} */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 48px;
+  margin-top: 48px;
+  position: relative;
+}
+.bio-info {
+  display: inline-block;
+  font-size: 50px;
+  width: 450px;
+  font-weight: bold;
+  font-family: Volkhov;
+
+  /* flex-grow: 1;
+  text-align: center;
+  width: 50%; */
+}
+.jour {
+  color: var(--primary-color);
+}
+.discrip {
+  display: block;
+  font-size: 20px;
+  width: 400px;
+  font-family: Poppins;
+}
+
+.discover {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 12px 20px;
+  margin-top: 30px;
+}
+
+/* .tourist {
+  display: flex;
+}
+.tourist > img {
+  display: block;
+} */
+.ellipse {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.ellipse > img {
+  display: block;
+  position: absolute;
+  left: 1444px;
+  top: 10px;
+  height: 400px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/* .tourist > img {
+  display: block;
+  width: 400px;
+} */
+
+section {
+  margin: 0 48px;
+  position: absolute;
+  top: 450px;
+  left: 400px;
+}
+
+.filter-sec {
+  display: flex;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 16px;
+  gap: 80px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+.filter-item {
+  flex-shrink: 0;
+  min-width: 136px;
+}
+
+.filter-item > h3 {
+  display: inline;
+}
+
+.filter-item > i {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.vacation,
+.safe-vacation,
+.things {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.vacation {
+  top: 200px;
+  left: 100px;
+  font-size: 50px;
+  width: 600px;
+}
+.vacation-todo {
+  color: var(--primary-color);
+}
+.safe-vacation {
+  top: 260px;
+  left: 150px;
+  font-size: 18px;
+  width: 550px;
+}
+
+.things {
+  top: 350px;
+  gap: 24px;
+}
+
+.thing-card {
+  display: block;
+  background-color: white;
+  padding: 16px;
+  max-width: 350px;
+  flex-grow: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.deals,
+.discount,
+.journey {
+  display: flex;
+  position: absolute;
+  /* align-items: center; */
+}
+.deals {
+  top: 650px;
+  left: 100px;
+  font-size: 50px;
+}
+.discount {
+  /* top: 4px; */
+  left: 200px;
+  font-size: 50px;
+  width: 620px;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--primary-color);
+}
+.journey {
+  top: 700px;
+  left: 200px;
+  font-size: 20px;
+  width: 520px;
+  justify-content: space-around;
+  font-family: Poppins;
+}
+
+.city {
+  display: flex;
+  position: absolute;
+  top: 800px;
+  left: -100px;
+  /* justify-content: center; */
+  gap: 24px;
+  margin: 16px;
+  /* flex-wrap: wrap; */
+}
+
+.booking-card {
+  background-color: white;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.card-title {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title > h3 {
+  margin: 0;
+  font-family: Poppins;
+  font-size: 24px;
+}
+
+.book-btn {
+  display: flex;
+  position: absolute;
+  top: 200px;
+  margin-left: 80px;
+  padding: 23px;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: var(--body-color);
+  align-items: center;
+  border-radius: 10px;
+  visibility: hidden;
+}
+.booking-card img:hover + .book-btn,
+.book-btn:hover {
+  visibility: visible;
+}
+.rating > i {
+  color: yellow;
+}
+
+.card-bottom {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-btn {
+  display: flex;
+  position: absolute;
+  top: 1250px;
+  left: 480px;
+}
+.page-btn-1 {
+  display: flex;
+  position: absolute;
+  top: 1250px;
+  left: 540px;
+}
+.btn-left {
+  padding: 6px 10px;
+  border-radius: 50px;
+}
+
+.btn-right {
+  padding: 6px 10px;
+  background-color: #fa7436;
+  border-radius: 50px;
+}
+
+.card-bottom > span {
+  color: var(--para-color);
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: var(--para-color);
+}
+.new-price {
+  color: var(--primary-color);
+  background-color: rgba(250, 116, 54, 0.2);
+  border-radius: 4px;
+}
+
+.plan {
+  display: flex;
+  position: absolute;
+  top: 1500px;
+  left: 180px;
+  font-size: 50px;
+}
+.leave {
+  display: flex;
+  position: absolute;
+  /* left: 8px; */
+  font-size: 50px;
+  width: 620px;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--primary-color);
+}
+.agency {
+  display: flex;
+  position: absolute;
+  top: 1550px;
+  left: 200px;
+  font-family: Poppins;
+  font-size: 20px;
+  width: 500px;
+}
+.top-pointer {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 850px;
+  left: 850px;
+}
+.plan-card {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 1700px;
+  left: -100px;
+  gap: 24px;
+}
+.package {
+  background-color: white;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.p-card-title {
+  /* padding: 12px; */
+  display: flex;
+  justify-content: space-between;
+}
+.card-bottom > span {
+  color: var(--para-color);
+}
+
+/* .old-price {
+  text-decoration: line-through;
+  color: var(--para-color);
+} */
+.dollor {
+  color: var(--primary-color);
+  font-size: 25px;
+  color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.search-bar > input {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 32px;
+  padding: 16px;
+  margin-bottom: 12px;
+  color: white;
+  font-size: 20px;
+}
+
+.search-bar > i {
+  right: -15px;
+  top: 12px;
+}
+
+.border-btn {
+  border: 2px solid white;
+  color: white;
+}
