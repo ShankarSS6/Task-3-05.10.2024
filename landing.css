@@ -1,13 +1,13 @@
 :root {
   --primary-color: #fa7436;
   --body-color: #fefcfb;
+  --background-color: #ffffff;
 }
 
 body {
   margin: 0;
   background-repeat: no-repeat;
   background-size: 100%;
-  /* color: #fefcfb; */
   font-family: monospace;
   background-color: var(--body-color);
 }
@@ -25,7 +25,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: inherit; /* inherit the color from anyone of its parents color */
+  color: inherit;
 }
 
 .tra-link > a {
@@ -55,24 +55,18 @@ header a {
 .btn {
   padding: 12px 25px;
   font-weight: bold;
-  color: white;
+  color: var(--background-color);
   border-radius: 7px;
 }
 .login {
   color: var(--primary-color);
   border: 0px;
-  background-color: white;
+  background-color: var(--background-color);
 }
 .primary-btn {
   background-color: var(--primary-color);
   border: none;
 }
-
-/* .tranparent-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-} */
 
 .main {
   display: flex;
@@ -88,10 +82,6 @@ header a {
   width: 450px;
   font-weight: bold;
   font-family: Volkhov;
-
-  /* flex-grow: 1;
-  text-align: center;
-  width: 50%; */
 }
 .jour {
   color: var(--primary-color);
@@ -104,23 +94,15 @@ header a {
 }
 
 .discover {
-  background-color: #ffffff;
+  background-color: var(--background-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   padding: 12px 20px;
   margin-top: 30px;
 }
 
-/* .tourist {
-  display: flex;
-}
-.tourist > img {
-  display: block;
-} */
 .ellipse {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
 }
 .ellipse > img {
   display: block;
@@ -131,11 +113,6 @@ header a {
   object-fit: cover;
   overflow: hidden;
 }
-
-/* .tourist > img {
-  display: block;
-  width: 400px;
-} */
 
 section {
   margin: 0 48px;
@@ -151,9 +128,8 @@ section {
   margin: 16px;
   gap: 80px;
   align-items: center;
-  /* flex-wrap: wrap; */
   justify-content: center;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .highlight {
@@ -205,7 +181,7 @@ section {
 
 .thing-card {
   display: block;
-  background-color: white;
+  background-color: var(--background-color);
   padding: 16px;
   max-width: 350px;
   flex-grow: 0;
@@ -217,7 +193,6 @@ section {
 .journey {
   display: flex;
   position: absolute;
-  /* align-items: center; */
 }
 .deals {
   top: 650px;
@@ -225,7 +200,6 @@ section {
   font-size: 50px;
 }
 .discount {
-  /* top: 4px; */
   left: 200px;
   font-size: 50px;
   width: 620px;
@@ -247,14 +221,12 @@ section {
   position: absolute;
   top: 800px;
   left: -100px;
-  /* justify-content: center; */
   gap: 24px;
   margin: 16px;
-  /* flex-wrap: wrap; */
 }
 
 .booking-card {
-  background-color: white;
+  background-color: var(--background-color);
   border-radius: 12px;
   flex-shrink: 0;
 }
@@ -317,7 +289,7 @@ section {
 
 .btn-right {
   padding: 6px 10px;
-  background-color: #fa7436;
+  background-color: var(--primary-color);
   border-radius: 50px;
 }
 
@@ -345,7 +317,6 @@ section {
 .leave {
   display: flex;
   position: absolute;
-  /* left: 8px; */
   font-size: 50px;
   width: 620px;
   justify-content: space-evenly;
@@ -379,13 +350,12 @@ section {
   gap: 24px;
 }
 .package {
-  background-color: white;
+  background-color: var(--background-color);
   border-radius: 12px;
   flex-shrink: 0;
 }
 
 .p-card-title {
-  /* padding: 12px; */
   display: flex;
   justify-content: space-between;
 }
@@ -393,35 +363,9 @@ section {
   color: var(--para-color);
 }
 
-/* .old-price {
-  text-decoration: line-through;
-  color: var(--para-color);
-} */
 .dollor {
   color: var(--primary-color);
   font-size: 25px;
   color: var(--primary-color);
   border-radius: 4px;
-}
-
-.search-bar > input {
-  width: 100%;
-  background: transparent;
-  outline: none;
-  border: 1px solid white;
-  border-radius: 32px;
-  padding: 16px;
-  margin-bottom: 12px;
-  color: white;
-  font-size: 20px;
-}
-
-.search-bar > i {
-  right: -15px;
-  top: 12px;
-}
-
-.border-btn {
-  border: 2px solid white;
-  color: white;
 }
