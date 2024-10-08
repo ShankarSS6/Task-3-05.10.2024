@@ -450,7 +450,7 @@ section {
   top: 200px;
   left: 80px;
   font-size: 14px;
-  color: #666666;
+  color: var(--link-color);
 }
 .blog {
   display: flex;
@@ -726,4 +726,21 @@ section {
   width: 400px;
   font-weight: bolder;
   color: var(--link-color);
+}
+footer {
+  display: flex;
+  position: absolute;
+  top: 4300px;
+}
+.footer {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  width: 400px;
+}
+footer > .terms {
+  display: flex;
+  position: absolute;
+  left: 1780px;
+  width: 129px;
 }
