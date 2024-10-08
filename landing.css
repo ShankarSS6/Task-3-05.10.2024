@@ -2,7 +2,7 @@
   --primary-color: #fa7436;
   --body-color: #fefcfb;
   --background-color: #ffffff;
-  --link-color: #666;
+  --link-color: #666666;
 }
 
 body {
@@ -650,9 +650,9 @@ section {
   display: flex;
   position: absolute;
   flex-shrink: 0;
-  top: 0px;
-  left: 300px;
-  font-size: 12px;
+  top: 5px;
+  left: 200px;
+  font-size: 13px;
   font-weight: bold;
 }
 .Contact-links-1 {
@@ -660,7 +660,7 @@ section {
   position: absolute;
   flex-shrink: 0;
   top: 80px;
-  left: 300px;
+  left: 200px;
   font-size: 15px;
   font-weight: bold;
   color: var(--link-color);
@@ -671,7 +671,7 @@ section {
   flex-shrink: 0;
   font-size: 15px;
   top: 110px;
-  left: 300px;
+  left: 200px;
   font-weight: bold;
   color: var(--link-color);
 }
@@ -681,7 +681,49 @@ section {
   flex-shrink: 0;
   font-size: 15px;
   top: 140px;
-  left: 300px;
+  left: 200px;
+  font-weight: bolder;
+  color: var(--link-color);
+}
+.information {
+  display: flex;
+  position: absolute;
+  flex-shrink: 0;
+  top: 5px;
+  left: 400px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.info {
+  display: flex;
+  position: absolute;
+  flex-shrink: 0;
+  font-size: 15px;
+  top: 80px;
+  left: 400px;
+  width: 400px;
+  font-weight: bolder;
+  color: var(--link-color);
+}
+.info-1 {
+  display: flex;
+  position: absolute;
+  flex-shrink: 0;
+  font-size: 15px;
+  top: 112px;
+  left: 400px;
+  width: 400px;
+  font-weight: bolder;
+  color: var(--link-color);
+}
+.info-2 {
+  display: flex;
+  position: absolute;
+  /* flex-shrink: 0; */
+  font-size: 15px;
+  top: 140px;
+  left: 400px;
+  width: 400px;
   font-weight: bolder;
   color: var(--link-color);
 }
